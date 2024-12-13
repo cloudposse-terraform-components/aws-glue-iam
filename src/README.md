@@ -5,7 +5,7 @@ tags:
   - provider/aws
 ---
 
-# Component: `glue`
+# Component: `glue-iam`
 
 This component provisions IAM roles for AWS Glue.
 
