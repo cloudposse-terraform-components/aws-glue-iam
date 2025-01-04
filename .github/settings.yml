@@ -5,5 +5,3 @@ repository:
   description: This component provisions IAM roles for AWS Glue
   homepage: https://cloudposse.com/accelerate
   topics: terraform, terraform-component
-
-
