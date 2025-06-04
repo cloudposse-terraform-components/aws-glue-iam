@@ -1,6 +1,6 @@
 module "iam_role" {
   source  = "cloudposse/iam-role/aws"
-  version = "0.21.0"
+  version = "0.22.0"
 
   principals = {
     "Service" = ["glue.amazonaws.com"]
