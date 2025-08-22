@@ -8,7 +8,6 @@ tags:
 # Component: `glue-iam`
 
 This component provisions IAM roles for AWS Glue.
-
 ## Usage
 
 **Stack Level**: Regional
@@ -29,7 +28,10 @@ components:
 ```
 
 <!-- prettier-ignore-start -->
-<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+<!-- prettier-ignore-end -->
+
+
+<!-- markdownlint-disable -->
 ## Requirements
 
 | Name | Version |
@@ -88,12 +90,17 @@ No resources.
 | <a name="output_role_arn"></a> [role\_arn](#output\_role\_arn) | The ARN of the Glue role |
 | <a name="output_role_id"></a> [role\_id](#output\_role\_id) | The ID of the Glue role |
 | <a name="output_role_name"></a> [role\_name](#output\_role\_name) | The name of the Glue role |
-<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
-<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+
 
 ## References
 
-- [cloudposse/terraform-aws-components](https://github.com/cloudposse/terraform-aws-components/tree/main/modules/glue/iam) -
-  Cloud Posse's upstream component
+
+- [cloudposse-terraform-components](https://github.com/orgs/cloudposse-terraform-components/repositories) - Cloud Posse's upstream component
+
+
+
 
 [<img src="https://cloudposse.com/logo-300x69.svg" height="32" align="right"/>](https://cpco.io/homepage?utm_source=github&utm_medium=readme&utm_campaign=cloudposse-terraform-components/aws-glue-iam&utm_content=)
+
